@@ -31,10 +31,9 @@ public class Calculatrice extends HttpServlet {
 		String first = request.getParameter("first");
 		String second = request.getParameter("second");
 		String type = request.getParameter("type");
-		String varInutile = "test commit";
-		String testEditExtern = "Test edit avec sublime";
-		System.out.println("Test push from eclipse to gitHube repository !");
-		System.out.println("Test push from github to eclipse !");
+		
+		System.out.println("Test fetch !");
+		
 		
 		if(first != "" && second != ""){
 			calcul.setFirst(Integer.parseInt(first));
